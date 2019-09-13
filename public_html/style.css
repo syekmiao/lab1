@@ -1,0 +1,76 @@
+html{font-family: verdana, arial, sans-serif}
+
+.header ul{
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #f0f8ff;
+}
+
+.header ul li{
+    float:left;
+    font-size: 25px;
+}
+
+.header ul li a{
+    font-family: verdana, arial, sans-serif;
+    display: block;
+    color: #838b8b;
+    text-decoration: none;
+    padding-left: 20px;
+    text-align: center;
+}
+
+label {
+    color: #27408b;
+    font-size: 20px;
+}
+
+.header ul li a:hover { color: blue;}
+
+.product{ 
+    background-color: #f0ffff;
+    margin-right: 10px;
+}
+
+.product2{ 
+    background-color: #e0eeee;
+    margin-right: 10px;
+}
+
+form{ 
+    background-color: #f0ffff;
+    margin-right: 10px;
+}
+
+#first {
+    background-color: #f0ffff;
+    margin-right: 10px;
+}
+
+#second {
+    background-color: #e0eeee;
+    margin-right: 10px;
+}
+
+h2{color: #00008b;}
+h3{color: #27408b;}
+h4{color: #27408b;}
+
+form input{
+    width: 260px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+form input:focus {
+    background-color: 	#f0f8ff;
+}
+
+input[type=submit]:hover {
+    background-color: #6495ed;
+}
