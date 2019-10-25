@@ -1,4 +1,10 @@
-html{font-family: verdana, arial, sans-serif}
+html{
+   font-family: verdana, arial, sans-serif;
+}
+
+body {
+    background-color: #f0ffff;
+}
 
 .header ul{
     margin: 0;
@@ -6,7 +12,7 @@ html{font-family: verdana, arial, sans-serif}
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-    background-color: #f0f8ff;
+    background-color: #e0eeee;
 }
 
 .header ul li{
@@ -40,11 +46,6 @@ label {
     margin-right: 10px;
 }
 
-form{ 
-    background-color: #f0ffff;
-    margin-right: 10px;
-}
-
 #first {
     background-color: #f0ffff;
     margin-right: 10px;
@@ -59,18 +60,35 @@ h2{color: #00008b;}
 h3{color: #27408b;}
 h4{color: #27408b;}
 
-form input{
-    width: 260px;
-    padding: 10px 20px;
-    margin: 8px 0;
-    border: 2px solid gray;
-    border-radius: 4px;
-}
-
-form input:focus {
-    background-color: 	#f0f8ff;
-}
-
 input[type=submit]:hover {
     background-color: #6495ed;
+}
+
+.product img {
+    width: 200px;
+    height: 250px;
+}
+
+.product2 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#registerForm {
+    padding-left: 5px;
+    background-color:  #f0ffff;
 }
